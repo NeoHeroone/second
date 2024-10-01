@@ -1,0 +1,145 @@
+/* @import './header.css';
+@import './navbar.css';
+@import './table-section.css'; */
+
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
+
+:root {
+  --bg-color: #f2f2f2;
+  --text-color: #18181b;
+  --hover-color: #01271c;
+  --hoverBackground-color: #4cfdc7;
+  --desc-color: #27272a;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lexend", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+button {
+  border: none;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+.btn {
+  background: transparent;
+  color: var(--text-color);
+}
+
+.btn:hover {
+  background: var(--hoverBackground-color);
+  color: var(--hover-color);
+}
+
+.navbar-box,
+nav {
+  align-items: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.container {
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav {
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.dropdown {
+  position: relative;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #d3d3d3;
+  width: 100px;
+  z-index: 18;
+  padding: 10px;
+  line-height: 25px;
+  border-radius: 5px;
+}
+.navbar-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 800px;
+}
+.navbar-box,
+main,
+tbody {
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: space-between; */
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.navbar-box {
+  gap: 50px;
+}
+.dropdown,
+.navbar-box ul li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+h1 {
+  font-size: 60px;
+}
+main p {
+  font-size: 20px;
+}
+.main-box {
+  width: 650px;
+}
+main {
+  margin-top: 50px;
+  align-items: center;
+  gap: 100px;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+td button {
+  background-color: #3dc699;
+}
+tbody {
+  flex-direction: column;
+  gap: 50px;
+  margin-bottom: 80px;
+}
+button:hover {
+  background-color: red;
+  color: #fff;
+  cursor: pointer;
+}
